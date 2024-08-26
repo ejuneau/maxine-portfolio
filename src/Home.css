@@ -4,15 +4,32 @@
   outline: 0px solid red
 }
 
+/* COLOUR VARIABLES */
+:root {
+  --header-colour: #282C34;
+  --header-font-colour: #FFFFFF;
+
+  --background-colour: #FFFFFF;
+  --link-colour: #61DAFB;
+  --content-colour: #F5F5F5;
+
+  --credits-active-tab-colour: var(--content-colour);
+  --credits-inactive-tab-colour: #E5E5E5;
+
+  --debug-text-colour: #2E5C3C;
+
+
+}
+
 /* GENERAL STYLES */
 
 html {
-  font-size: calc(0.6rem + 1vmin);
+  font-size: calc(0.6rem + 1vmin); /* variable font size */
 }
 
 header, footer {
-  background-color: #282c34;
-  color: white;
+  background-color: var(--header-colour);
+  color: var(--header-font-colour);
   text-align:center;
   justify-content: space-evenly;
   display: flex;
@@ -53,13 +70,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--background-colour);
   /* Instert background here */
 }
 
-a {color: #61dafb;}
-a:visited {color: #61dafb}
-a:hover {color:#61dafb}
-a:active{color:#61dafb}
+a {color: var(--link-colour);}
+a:visited {color: var(--link-colour)}
+a:hover {color: var(--link-colour)}
+a:active{color: var(--link-colour)}
 
 
 
@@ -80,7 +98,7 @@ a:active{color:#61dafb}
 .home, .credits, .contact {
   width: clamp(350px, 50%, 50vw);
   height: clamp(400px,80%, 70vh);
-  background-color: #F5F5F5;
+  background-color: var(--content-colour);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

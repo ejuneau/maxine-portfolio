@@ -179,9 +179,9 @@ function Credits() {
         <div 
         onClick={()=>setTab("fiction")} 
         style={{
-          backgroundColor:tab === "fiction" ? "#F5F5F5" : "#E5E5E5"}}><p>Fiction</p></div>
-        <div onClick={()=>setTab("interactiveFiction")}style={{backgroundColor:tab === "interactiveFiction" ? "#F5F5F5" : "#E5E5E5"}}><p>Interactive Fiction</p></div>        
-        <div onClick={()=>setTab("professionalCredits")} style={{backgroundColor:tab === "professionalCredits" ? "#F5F5F5" : "#E5E5E5"}}><p>Professional Credits</p></div>
+          backgroundColor:tab === "fiction" ? "var(--credits-active-tab-colour)" : "var(--credits-inactive-tab-colour)"}}><p>Fiction</p></div>
+        <div onClick={()=>setTab("interactiveFiction")}style={{backgroundColor:tab === "interactiveFiction" ? "var(--credits-active-tab-colour)" : "var(--credits-inactive-tab-colour)"}}><p>Interactive Fiction</p></div>        
+        <div onClick={()=>setTab("professionalCredits")} style={{backgroundColor:tab === "professionalCredits" ? "var(--credits-active-tab-colour)" : "var(--credits-inactive-tab-colour)"}}><p>Professional Credits</p></div>
       </div>
       <div className="credits-content-container">
         {
