@@ -9,7 +9,8 @@ import {
   createBrowserRouter,
   RouterProvider,
   Outlet,
-  NavLink
+  NavLink,
+  Link
 } from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,7 +30,7 @@ function Viewport() {
   return (
     <div className="App">
     <header>
-      <NavLink to="/">Maxine Sophia Wolff</NavLink>
+      <Link to="/">Maxine Sophia Wolff</Link>
       <nav>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/Credits">Credits</NavLink>
@@ -37,6 +38,8 @@ function Viewport() {
       </nav>
     </header>
     <main>
+      <div className="background-image"></div>
+      <div className="frosted-glass"></div>
       <Outlet />
     </main>
     <footer>
@@ -70,6 +73,14 @@ function Viewport() {
       >
         Velvetyne Type Foundry
       </a>.</p>
+      <p>Website by <a
+        className="App-link"
+        href="https://ejuneau.me"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Eve Juneau
+      </a></p>
     </footer>
   </div>
   )

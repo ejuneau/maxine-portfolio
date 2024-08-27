@@ -6,11 +6,12 @@
 
 /* COLOUR VARIABLES */
 :root {
-  --header-colour: #282C34;
+  --header-colour: #254E70;
   --header-font-colour: #FFFFFF;
 
-  --background-colour: #FFFFFF;
-  --link-colour: #61DAFB;
+  --background-colour: #254E70;
+  --header-link-colour: #FAB2EA;
+  --link-colour: #7E4E60;
   --content-colour: #F5F5F5;
 
   --credits-active-tab-colour: var(--content-colour);
@@ -28,18 +29,25 @@ html {
 }
 
 header, footer {
-  background-color: var(--header-colour);
+  background: var(--header-colour);
   color: var(--header-font-colour);
   text-align:center;
   justify-content: space-evenly;
   display: flex;
   align-items: center;
-  font-size: 1.3em
+  font-size: 1.3em;
+  a.active {text-decoration: underline;}
+  a {color: var(--header-link-colour); text-decoration: none;}
+  a:visited {color: var(--header-link-colour)}
+  a:hover {color: var(--header-link-colour)}
+  a:active{color: var(--header-link-colour)}
+  
 }
 
 header {
   justify-content: space-evenly;
   height: 15vh;
+
 
   nav {
     display: flex;
@@ -71,13 +79,34 @@ main {
   justify-content: center;
   align-items: center;
   background: var(--background-colour);
+  position: relative;
+  z-index: 4;
+  color: white;
+
   /* Instert background here */
+
+}
+.background-image{
+  background-image: url('./assets/images/Photo_Credit_Ocean_Imaging_Giant_Kelp_Forest_HopeSpot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 75vh;
+  width: 100vw;
+  /* filter: blur(3px); */
+  opacity: 0.9;
+  z-index: 1;
+  filter:brightness(80%);
 }
 
-a {color: var(--link-colour);}
+/* a {color: var(--link-colour);}
 a:visited {color: var(--link-colour)}
 a:hover {color: var(--link-colour)}
-a:active{color: var(--link-colour)}
+a:active{color: var(--link-colour)} */
+a {color: var(--header-link-colour);}
+a:visited {color: var(--header-link-colour)}
+a:hover {color: var(--header-link-colour)}
+a:active{color: var(--header-link-colour)}
 
 
 
@@ -98,19 +127,39 @@ a:active{color: var(--link-colour)}
 .home, .credits, .contact {
   width: clamp(350px, 50%, 50vw);
   height: clamp(400px,80%, 70vh);
-  background-color: var(--content-colour);
+  /* background-color: var(--content-colour); */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 4;
   div {
     width: 80%;
+    p {
+    }
   }
 }
+.frosted-glass {
+  position: absolute;
+  width: clamp(350px, 50%, 50vw);
+  height: clamp(400px,80%, 70vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 3;
+  -webkit-backgrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+  background-color: rgb(228 228 228 / 15%);
+  border-radius: 5px;
+}
+
 .credits {
   justify-content: flex-start
 }
 .credits-content-container {
+  padding: 0 10%;
   overflow: scroll;
   div {
     width: 100%;
@@ -126,6 +175,9 @@ a:active{color: var(--link-colour)}
   div {
     height: 100%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     p {
       text-align: center;
       user-select: none;
