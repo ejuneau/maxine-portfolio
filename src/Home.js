@@ -1,6 +1,7 @@
 import './Home.css';
 import { useEffect } from 'react';
-
+import "./assets/fonts/Karrik-Italic.ttf";
+import "./assets/fonts/Karrik-Regular.ttf";
 function Home() {
 
   useEffect(() => {
