@@ -14,8 +14,8 @@
   --link-colour: #7E4E60;
   --content-colour: #F5F5F5;
 
-  --credits-active-tab-colour: var(--content-colour);
-  --credits-inactive-tab-colour: #E5E5E5;
+  --credits-active-tab-colour: "unset";
+  --credits-inactive-tab-colour: rgba(0 0 0 / 0.4);
 
   --debug-text-colour: #2E5C3C;
 
@@ -135,7 +135,8 @@ a:active{color: var(--header-link-colour)}
   z-index: 4;
   div {
     width: 80%;
-    p {
+    a {
+      font-weight: bold;
     }
   }
 }
@@ -184,5 +185,11 @@ a:active{color: var(--header-link-colour)}
       -moz-user-select: none;
       font-size: 1.2em;
     }
+  }
+  div:first-child {
+    border-radius: 5px 0 0 0;
+  }
+  div:last-child {
+    border-radius: 0 5px 0 0;
   }
 }
