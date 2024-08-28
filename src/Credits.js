@@ -19,7 +19,7 @@ const fiction = [
       name: "Disparate Points in Space and Time",
       link: "https://kaleidotrope.net/archives/summer-2023/disparate-points-in-space-and-time-by-maxine-sophia-wolff/",
       medium: "online",
-      host: "Sieze the Press",
+      host: "Kaleidotrope",
       date: "July 2023",
     },
     {
