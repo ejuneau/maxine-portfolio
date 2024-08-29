@@ -42,13 +42,19 @@ export default function Hamburger(props) {
 
           @media (max-width: 767px){
 
+            .contact, .credits, .home, .frosted-glass {
+            width: 90%;
+            font-size: 1.4em;
+            }
+
             .hamburger{
               display: flex;
               z-index: 10;  
             }
             
             nav {
-              display: flex;
+            
+              display: ${props.hamburgerOpen?'flex':'none'};
               -webkit-backgrop-filter: blur(${props.hamburgerOpen?'10px':'0px'});
               backdrop-filter: blur(${props.hamburgerOpen?'10px':'0px'});
               background-color: ${props.hamburgerOpen?'rgb(228 228 228 / 15%)':'none'};              
