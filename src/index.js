@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Home from './Home';
 import Credits from './Credits';
 import Contact from './Contact';
+import Header from './Header';
 import reportWebVitals from './reportWebVitals';
 import { 
   createBrowserRouter,
@@ -28,14 +29,7 @@ const router = createBrowserRouter([
 function Viewport() {
   return (
     <div className="App">
-    <header>
-      <Link to="/">Maxine Sophia Wolff</Link>
-      <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/Credits">Credits</NavLink>
-        <NavLink to="/Contact">Contact</NavLink>
-      </nav>
-    </header>
+    <Header />
     <main>
       <div className="background-image"></div>
       <div className="frosted-glass"></div>
