@@ -2,6 +2,13 @@ import { useState, useEffect } from "react";
 
 const fiction = [
     {
+
+      name: "Kiss the Werewolf",
+      link: "https://www.thepinkhydra.com/issues/0103202409/kissthewerewolf/",
+      medium: "online",
+      host: "Pink Hydra Magazine",
+      date: "September 2024",
+
       name: "Cocoon",
       link: "https://www.divinationsmagazine.co.uk/issue-4-disco/cocoon",
       medium: "online",
