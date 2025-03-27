@@ -1,6 +1,20 @@
 import { useState, useEffect } from "react";
 
 const fiction = [
+     {
+      name: "Where Did All the Fireflies Go?",
+      link: "https://blackfoxlitmag.com/current-issue/",
+      medium: "online",
+      host: "Black Fox Lit",
+      date: "March 2025",
+    }, 
+    {
+      name: "This Movie Sits on a Leyline",
+      link: "https://www.seizethepress.com/2024/09/18/this-movie-theater-sits-on-a-leyline-stp11/",
+      medium: "online",
+      host: "Seize the Press",
+      date: "January 2025",
+    }, 
     {
       name: "Kiss the Werewolf",
       link: "https://www.thepinkhydra.com/issues/0103202409/kissthewerewolf/",
@@ -56,13 +70,6 @@ const fiction = [
       medium: "online",
       host: "Fusion Fragment",
       date: "March 2022",
-    },
-    {
-      name: "This Movie Theater Sits On a Ley Line and We All Fucking Know It",
-      link: "http://www.scum-mag.com/this-movie-theater-sits-on-a-ley-line-and-we-all-fucking-know-it/",
-      medium: "online",
-      host: "Scum Magazine",
-      date: "June 2022",
     },
     
   ]
