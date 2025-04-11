@@ -120,9 +120,21 @@ const fiction = [
   ]
   const professionalCredits = [
     {  
+      credit: "Supporting Writer",
+      name: "Afterlove EP",
+      link: "https://store.steampowered.com/app/1599780/Afterlove_EP/",
+      date: "Febuary, 2025",
+    },
+    {  
       credit: "Writing",
       name: "an unnanounced Remedy Game",
       link: "https://www.remedygames.com/",
+      date: "TBD",
+    },
+    {  
+      credit: "Narrative Design",
+      name: "Breeze in the Clouds",
+      link: "https://store.steampowered.com/app/1823210/Breeze_in_the_Clouds/",
       date: "TBD",
     },
     {  
@@ -153,6 +165,12 @@ const fiction = [
       credit: "Sensitivity Consultation",
       name: "Shadow Gambit: The Cursed Crew",
       link: "https://store.steampowered.com/app/1545560/Shadow_Gambit_The_Cursed_Crew/",
+      date: "August 2023",
+    },
+    {      
+      credit: "Writing",
+      name: "Goodbye Volcano High",
+      link: "https://store.steampowered.com/app/1310330/Goodbye_Volcano_High/",
       date: "August 2023",
     },
     {      
