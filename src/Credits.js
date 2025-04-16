@@ -126,12 +126,6 @@ const fiction = [
       date: "Febuary, 2025",
     },
     {  
-      credit: "Writing",
-      name: "an unnanounced Remedy Game",
-      link: "https://www.remedygames.com/",
-      date: "TBD",
-    },
-    {  
       credit: "Narrative Design",
       name: "Breeze in the Clouds",
       link: "https://store.steampowered.com/app/1823210/Breeze_in_the_Clouds/",
