@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div className="contact">
       <div className="about">
-        <p>Click <a href="mailto:maxine@sweetbabyinc.com?subject=Reaching out from your Portfolio site" rel="noreferrer" target="_blank">here</a> to contact me via email.</p>
+        <p>Click <a href="mailto:tortiwolff18@gmail.com?subject=Reaching out from your Portfolio site" rel="noreferrer" target="_blank">here</a> to contact me via email.</p>
       </div>
     </div>
   );
