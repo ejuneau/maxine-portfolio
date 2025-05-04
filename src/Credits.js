@@ -1,9 +1,6 @@
 import { useState, useEffect } from "react";
 const fiction = [
-    {
-      name: "My Public Portfolio",
-      link: "https://docs.google.com/document/d/1Rax7KBRDtqJI8R-l_vRbxn9KIlb1ugc9/edit?usp=sharing&ouid=109269417576404919058&rtpof=true&sd=true",
-    }
+
 
      {
       name: "Where Did All the Fireflies Go?",
