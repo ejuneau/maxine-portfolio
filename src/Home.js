@@ -15,6 +15,7 @@ function Home() {
         <p>I am looking for new full-time remote work.</p>
         <p>Although my personal work tends towards speculative fiction, I enjoy and am capable writing in a variety of genres, formats, and styles.</p>
         <p>You can click <a href="https://maxinesophiawolff.itch.io/" target="_blank" rel="noreferrer">here</a> to view my itch.io account.</p>
+        <p>You can click <a href="https://docs.google.com/document/d/1Rax7KBRDtqJI8R-l_vRbxn9KIlb1ugc9/edit?usp=sharing&ouid=109269417576404919058&rtpof=true&sd=true" target="_blank" rel="noreferrer">here</a> to view my public portfolio of work.</p>
       </div>
     </div>
   );
