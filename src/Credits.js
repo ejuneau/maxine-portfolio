@@ -1,8 +1,14 @@
 import { useState, useEffect } from "react";
 const fiction = [
 
-
      {
+      name: "Little Green Solider",
+      link: "https://www.nocobo.co/store",
+      medium: "online",
+      host: "Edge City Magazine",
+      date: "November 2025",
+    }, 
+  {
       name: "Where Did All the Fireflies Go?",
       link: "https://blackfoxlitmag.com/current-issue/",
       medium: "online",
