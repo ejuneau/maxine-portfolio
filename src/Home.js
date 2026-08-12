@@ -12,7 +12,7 @@ function Home() {
     <div className="home">
       <div className="about">
         <p>Welcome to my website! My name is Maxine Sophia Wolff. I am a 27-year-old writer and video game developer.</p>
-        <p>I used to make little games on my <a href="https://maxinesophiawolff.itch.io/" target="_blank" rel="noreferrer">itch.io account.</a></p>
+        <p>You can click the the tab above to view my credits. You can also click <a href="https://maxinesophiawolff.itch.io/" target="_blank" rel="noreferrer">here</a> to see my old itch.io account.</p>
       </div>
     </div>
   )
