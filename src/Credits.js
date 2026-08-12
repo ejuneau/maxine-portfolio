@@ -80,51 +80,7 @@ const fiction = [
     },
     
   ]
-  const interactiveFiction = [
-    {      
-      name: "Gargoyle One",
-      link: "https://maxinesophiawolff.itch.io/gargoyle-one",
-      desc: "A text-based mecha game.",
-      host: "Itch.io",
-      date: "September 2023",
-    },
-    {      
-      name: "The Twine Fishing Simulator",
-      link: "https://maxinesophiawolff.itch.io/the-twine-fishing-simulator",
-      desc: "A text-based, dreamlike fishing simulator.",
-      host: "Itch.io",
-      date: "January 2022",
-    },
-    {      
-      name: "GODZILLA-2049",
-      link: "https://maxinesophiawolff.itch.io/godzilla-2049",
-      desc: "A twine game about Godzilla and the US Military.",
-      host: "Itch.io",
-      date: "April 2021",
-    },
-    {      
-      name: "Return",
-      link: "https://maxinesophiawolff.itch.io/return",
-      desc: "A twine horror game about coming home.",
-      host: "Itch.io",
-      date: "December 2020",
-    },
-    {      
-      name: "Unlabeled Flesh #338",
-      link: "https://maxinesophiawolff.itch.io/unlabeled-flesh-338",
-      desc: "A twine game about hunting beautiful creatures for a terrible company.",
-      host: "Itch.io",
-      date: "November 2020",
-    },
-    {      
-      name: "your name is grendel and you know how this ends",
-      link: "https://maxinesophiawolff.itch.io/your-name-is-grendel-and-you-know-how-this-ends",
-      desc: "a twine game about getting killed by Beowulf.",
-      host: "Itch.io",
-      date: "September 2020",
-    },
-
-  ]
+  
   const professionalCredits = [
     {  
       credit: "Supporting Writer",
