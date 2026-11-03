@@ -83,6 +83,12 @@ const fiction = [
   
   const professionalCredits = [
      {  
+      credit: "Lead Writer",
+      name: "Nomori",
+      link: "https://store.steampowered.com/app/2932680/Nomori/",
+      date: "September, 2026",
+    },
+     {  
       credit: "External Narrative Review",
       name: "Marvel's Wolverine",
       link: "https://www.playstation.com/en-us/games/marvels-wolverine/?srsltid=AYCX9vLLBzABfHXFP_dTO90k-FapWi-j8AunXezBbGPdA5j2t0tNQj5v",
