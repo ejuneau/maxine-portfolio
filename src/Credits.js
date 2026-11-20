@@ -88,6 +88,13 @@ const fiction = [
       link: "https://www.jackboxgames.com/games/packs/the-jackbox-party-pack-12",
       date: "October, 2026",
     },
+
+       {  
+      credit: "Ghost Writer",
+      name: "REDACTED",
+      link: "https://www.merriam-webster.com/dictionary/secret",
+      date: "REDACTED",
+    },
    
     {  
       credit: "Lead Writer",
