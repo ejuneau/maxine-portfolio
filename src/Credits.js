@@ -89,7 +89,7 @@ const fiction = [
       date: "October, 2026",
     },
 
-       {  
+    {  
       credit: "Ghost Writer",
       name: "REDACTED",
       link: "https://www.merriam-webster.com/dictionary/secret",
